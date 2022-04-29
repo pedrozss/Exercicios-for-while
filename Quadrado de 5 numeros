@@ -1,0 +1,17 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+
+    for (double i=0;i<5;i++){
+      System.out.println("Digite um número");
+    double n1 = scan.nextDouble();
+
+      System.out.println("O quadrado do número " + n1 + " é " + (n1*n1) + "\n");
+    }
+    
+    
+    
+    
+  }
+}
